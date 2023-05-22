@@ -2,22 +2,23 @@
 Tops 명령어는 현재 OS (운영 체재)의 상태를 나타내주 CLI (명령 줄 인터페이스) 어플리케이션이다.
 
 Tops 명령어를 치면 아래와 같이 실행된다.
-![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/563fd9bd-4156-4593-83df-5ad9828f5b48)
+![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/08863a64-f3e6-4cad-b1b7-1b256abafa90)
 | 기본 정보 | 설명 |
 | ------------ | -------------------------------------------------- |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/6765bd37-08cb-4c60-bfc4-0d0bda0c812e)| 현재 시각 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/517b812b-a9b8-4226-9704-171ee0945972)| 서버 활동 시간 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/560576f2-f4dc-47df-9085-a829b10ec66f)| 접속중인 유저의 수 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/77967a1b-944d-44bc-882a-4f735022cf13)| 리눅스에서는 실행되거나 대기중인 프로세스의 평균 (앞에서 부터 1분, 5분, 그리고 15분에 대한 평균값) |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/03ab150d-57bb-4900-b869-b4d56c679896)| 현재 시각 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/dac9b631-50df-4d9b-9e26-7934d21b3bc9)| 서버 활동 시간 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/2ea63326-9aae-4206-a2e3-ae8831fd231c)| 접속중인 유저의 수 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/455a83e6-8701-4458-a29e-b4b2fa773ad4)| 리눅스에서는 실행되거나 대기중인 프로세스의 평균 (앞에서 부터 1분, 5분, 그리고 15분에 대한 평균값) |
+
 
 
 | Tasks | 설명 |
 | ------------ | -------------------------------------------------- |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/581bd6cc-6ab4-4b0d-a784-1cbf8bdbb065)| 전체 프로세스 수 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/eee9f290-4750-48a6-9175-c43583f1e74b)| 실행(Running) - CPU에 의해서 명령어가 실행중인 Process |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/d0b4915c-0ee4-47f5-9000-6532144237d1)| 대기(Sleeping) - CPU의 명령어 실행을 기다리는 Process |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/b4e5c2fb-e5cc-44b1-80dd-2591559a6be1)| 종료(Stopped) - Ctrl + Z 등의 signal로 종료된 Process |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/f5f2e641-88cc-40ab-a33d-795679fe4c64)| 뿌리구조(Zombie) - Root Process로 부터 뿌리내린 자식 Process의 형식으로 트리구조를 형성
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/79079cac-bea6-485d-a22f-2dd471385fb3)| 전체 프로세스 수 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/686fad33-4d68-4e33-82aa-47bb26c5234d)| 실행(Running) - CPU에 의해서 명령어가 실행중인 Process |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/57f54ecf-28b7-4753-ae8a-0254e258e179)| 대기(Sleeping) - CPU의 명령어 실행을 기다리는 Process |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/8486bb3e-f684-48f4-a466-dfc01322360d)| 종료(Stopped) - Ctrl + Z 등의 signal로 종료된 Process |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/c075d9d6-9fb1-40f7-bf40-be3f10d35d5b)| 뿌리구조(Zombie) - Root Process로 부터 뿌리내린 자식 Process의 형식으로 트리구조를 형성
 
 CPU 사용량
 
@@ -34,13 +35,13 @@ CPU 사용량
 
 | 메모리 사용량 |  |
 | ------------ | -------------------------------------------------- |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/05e37b71-84e8-4cc2-bccf-efd2a70618d8)| RAM의 메모리 영역 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/11ebe076-bb13-4f6d-b921-04cf3bd40e20)| 디스크 메모리 영역 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/d5499fe0-1197-4691-a7ad-f7befba6016d)| Total : 총 메모리 양 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/3eea4cd6-bc0c-4ac8-b97d-efe84bfb2b0c)| Free : 사용가능한 메모리 양 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/203298ea-ce26-499f-ba0d-e4b6df250be1)| Used : 사용중인 메모리 양 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/72687629-0ed7-4b47-bc56-e9743d6ddda5)| Buff/Cache는 IO와 관련되어 사용되는 버퍼에 사용되는 메모리 |
-|![image](https://github.com/dean8953/Helloworld_230522/assets/133843595/bd3721d0-c6ed-4d0a-b93a-d7a5a3331aa5)| Avail Mem : swap 메모리를 사용하지 않고 사용할 수 있는 메모리의 크기 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/71063870-79c5-4e53-9488-46fd803861df)| RAM의 메모리 영역 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/8ca8f94d-8d60-413e-b947-5a8feebc9299)| 디스크 메모리 영역 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/c57ead94-7954-4ba2-8d79-63fb208cddab)| Total : 총 메모리 양 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/aea6e7a3-7360-468d-952a-214d0fa683d4)| Free : 사용가능한 메모리 양 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/fad387ce-8685-40ad-9a6f-cb16c21f956a)| Used : 사용중인 메모리 양 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/1e01766d-3177-4a48-aaec-91225b515a0a)| Buff/Cache는 IO와 관련되어 사용되는 버퍼에 사용되는 메모리 |
+|![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/b6188a16-9336-4018-8e4d-5c7a531b6a62)| Avail Mem : swap 메모리를 사용하지 않고 사용할 수 있는 메모리의 크기 |
 
 디테일 영역
 
