@@ -75,11 +75,18 @@
 |![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/7e9bc366-4ea7-4a5a-bde2-a7f5744086c5)| 프로세스 이름으로 프로세스를 종료 |
 |![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/bad6a48e-5ee1-42ba-bfa6-05c049a948f0)| 특정 사용자의 모든 프로세스를 종료|
 
-**KILL 신호 종류**
+**가장 많이 쓰는 KILL 신호 종류**
 * SIGTERM (15): 기본적인 종료 신호로, 프로세스에게 정상 종료를 요청
 * SIGKILL (9): 강제 종료 신호로, 프로세스를 즉시 종료
 * SIGSTOP (19): 프로세스를 일시 중지
+* SIGHUP (1): 프로세스를 다시 로드
+* SIGQUIT (3): 키보 종료
+* SIGINT (2): 현재 작동중인 프로그램의 동작을 멈출때 사용
+* SIGSEGV (11): 잘못된 메모리 관리시 생기는 신호
+* SIGCONT (18): 중지 되어 있는 프로그램을 재실행 하는데 사용되는 신호
+* SIGSTOP (19): 프로그램을 중지 하는데 사용되는 신호
+* SIGTSTP (20): 터미널에서 중지되어 있는 신호
 
-
-
+**이외에도 아래와 같이 64가지의 종류가 있다.**
+![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/98e3edcf-d239-4785-b7f6-c4dbd3284619)
 
