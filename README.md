@@ -143,6 +143,8 @@
 * C, CP : 짧은 기간 동안의 CPU 사용률 
 * F : 프로세스의 플래그 
 
+**여러가지 PS 명령어들**
+
 ![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/eb8599da-df8d-4a02-a226-7a625419c897)
 
 **PS AX**
