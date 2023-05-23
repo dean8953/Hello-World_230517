@@ -121,7 +121,7 @@
 
 > TIME은 시간을 나타내고 CMD는 실행된 프로세스의 이름 혹은 실행된 명령
 
-**디테일 영역**
+**PS 항목**
 
 * PID :  프로세스 ID이며 프로세스를 구분하기 위한 겹치지않는 고유한 값
 * PPID : 부모 프로세스 ID
@@ -142,6 +142,51 @@
 * S STAT : 현재 프로세스의 상태 코드 
 * C, CP : 짧은 기간 동안의 CPU 사용률 
 * F : 프로세스의 플래그 
+
+![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/eb8599da-df8d-4a02-a226-7a625419c897)
+
+**PS AX**
+
+> 시스템에 동작중인 모든 프로세스를 보고 싶을 때 위와 같은 명령어를 사용하면 BSD 포멧으로 출력해준다. ( "ps -e"와 비슷함 )
+
+![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/7dfd48cf-e0fb-438f-9e4b-000b06cc0e65)
+
+**PS AUX**
+
+> 시스템에 동작중인 모든 프로세스를 소유자 정보와 함께 다양한 정보를 출력한다. ( BSD 포멧으로 출력 )
+
+> PS AUX | GREP 을 통하여 특정 프로세에 대해서만 볼 수 있다.
+
+![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/b4a78228-344d-4c24-8d31-d7b5509950e2)
+
+**PS -EF**
+
+> "SYSTEM V" 계열 옵션으로 "ps aux"처럼 시스템에 동작중인 모든 프로세스를 자세히 출력해준다. 
+
+![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/1352d53f-e658-4382-a2ac-5ca074c76d60)
+
+**PS -EL**
+
+> "ps -ef"에서 보이지 않았던 다른 PS 정보들이 더 많이 출력된다.
+
+![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/970b8c35-f141-4eca-afc2-cf2728ac248a)
+
+**PS -FP [PID]**
+
+>  PID를 직접입력하여 프로세스 정보를 확인할 수 있다.
+
+![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/607cb642-43fc-4202-96a8-87ed5b8d9758)
+
+**PS -T PTS/??**
+
+> TTY를 직접입력하여 프로세스 정보를 확인할 수 있다.
+
+![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/59aca4a4-d40d-4fda-9f21-f69c70d93102)
+
+**PS -O (원하는 PS 항목)
+
+>  pid,ppid,tty,command등 원하는 여러 PS 항목들만 출력할 수 있다. 
+
 
 
 
