@@ -20,7 +20,7 @@
 |![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/8486bb3e-f684-48f4-a466-dfc01322360d)| 종료(Stopped) - Ctrl + Z 등의 signal로 종료된 Process |
 |![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/c075d9d6-9fb1-40f7-bf40-be3f10d35d5b)| 뿌리구조(Zombie) - Root Process로 부터 뿌리내린 자식 Process의 형식으로 트리구조를 형성
 
-**CPU 사용량**
+## CPU 사용량
 
 **%Cpu(s)라는 영역은 CPU가 어떻게 사용되고 있는지 그 사용율을 보여주는 영역이며 모든 값의 총 합은 100% 이고 이를 퍼센테이지로 나누어서 보여준다.**
  
@@ -56,6 +56,7 @@
 
 > [프로세스 ID 또는 신호 번호]는 PID(프로세스 ID) 또는 프로세스에 보낼 신호 번호를 의미한다.
 
+
 | **KILL 명령어** | **설명** |
 | ------------ | -------------------------------------------------- |
 |![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/736bb8d2-4a01-4600-a7e4-6d24e68eafb9)| 특정 프로세스 ID(PID)에 신호를 보내어 프로세스 종료 |
@@ -63,7 +64,7 @@
 |![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/7e9bc366-4ea7-4a5a-bde2-a7f5744086c5)| 프로세스 이름으로 프로세스를 종료 |
 |![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/bad6a48e-5ee1-42ba-bfa6-05c049a948f0)| 특정 사용자의 모든 프로세스를 종료|
 
-**가장 많이 쓰는 KILL 신호 종류**
+## 여러가지 KILL 신호 종류 
 * SIGHUP (1): 프로세스를 다시 로드
 * SIGINT (2): 현재 작동중인 프로그램의 동작을 멈출때 사용
 * SIGQUIT (3): 키보드 종료
@@ -91,6 +92,7 @@
 
 > "JOBS"를 치면 현재 실행중인 작업을 표시한다.
 
+## 여러가지 JOBS 명령어들 
 
 | **옵션** | **설명** |
 | ------------ | -------------------------------------------------- |
@@ -121,7 +123,7 @@
 
 > TIME은 시간을 나타내고 CMD는 실행된 프로세스의 이름 혹은 실행된 명령
 
-**PS 항목**
+## PS 항목
 
 * PID :  프로세스 ID이며 프로세스를 구분하기 위한 겹치지않는 고유한 값
 * PPID : 부모 프로세스 ID
@@ -143,7 +145,7 @@
 * C, CP : 짧은 기간 동안의 CPU 사용률 
 * F : 프로세스의 플래그 
 
-**여러가지 PS 명령어들**
+## 여러가지 PS 명령어들
 
 ![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/eb8599da-df8d-4a02-a226-7a625419c897)
 
