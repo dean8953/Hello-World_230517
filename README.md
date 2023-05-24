@@ -187,7 +187,7 @@
 
 ![image](https://github.com/dean8953/Hello-World_230517/assets/133843595/59aca4a4-d40d-4fda-9f21-f69c70d93102)
 
-**PS -O (원하는 PS 항목)
+**PS -O (원하는 PS 항목)**
 
 >  pid,ppid,tty,command등 원하는 여러 PS 항목들만 출력할 수 있다. 
 
